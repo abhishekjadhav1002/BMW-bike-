@@ -1,0 +1,82 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'poppins',sans-serif;
+}
+.contenar{
+   width: 100%;
+   height: 100vh;
+   background-image: url(/BMW1.png);
+   background-position: center;
+   background-size: cover;
+   padding: 20px 7%;
+}
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav .logo{
+   width: 150px;
+   cursor: pointer;
+}
+nav .btn{
+   text-decoration: none;
+   color: aliceblue;
+   background-color: #333;
+   background-position: center;
+   padding: 15px 50px;
+   border-radius: 30px;
+   font-weight: 500;
+
+}
+nav .btn:hover{
+   background-color:  #fefcfc;
+   color: rgb(0, 0, 0);
+   border: 1px solid black;
+}
+.content{
+   margin-top: 10%;
+}
+.content h2{
+   color: red;
+   font-size: 34px;
+}
+.content h1{
+   color: #000000;
+   font-size: 70px;
+}
+.content p{
+   color: #333;
+   max-width: 380px;
+   font-weight: 500;
+
+}
+.content h3{
+   margin-top: 30px;
+   font-weight: 600;
+   font-size: 24px;
+}
+.colour-select div{
+   width: 50px;
+   height: 50px;
+   background-color: #333;
+   background-position: center;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+.colour-select{
+   display: flex;
+   margin-top: 30px;
+}
+
+.colour-select #red{
+   background-color: red;
+}
+.colour-select #blue{
+   background-color: blue;
+}
+.colour-select #black{
+   background-color: #000000;
+}

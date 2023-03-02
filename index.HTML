@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>BMW</title>
+
+   <!-- Adding css -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="contenar" id="bike">
+    <nav>
+       <img src="./logo.png" class="logo">
+       <a href="#" class="btn">Test Drive</a>
+    </nav>
+     
+     <div class="content" >
+        <H2>THE BMW</H2>
+        <h1>G 310 R</h1>
+        <p>The strength of the G 310 R is in its lightness and agility. the bike not only delivers fun in the big-city tumult, but also when youare redefining the city limit wen changing quickly</p>
+        <h3>Choose your colour</h3>
+
+        <div class="colour-select">
+          <div id="red"></div>
+          <div id="blue"></div>
+          <div id="black"></div>
+        </div>
+      </div>
+   </div>
+    
+   <script>
+      let redbtn = document.getElementById("red");  
+      let bluebtn = document.getElementById("blue");
+      let blackbtn = document.getElementById("black");
+      let bike = document.getElementById("bike");
+
+      redbtn.onclick = function(){
+         bike.style.backgroundImage = "url(./BMW1.png)"
+      }
+      bluebtn.onclick = function(){
+         bike.style.backgroundImage = "url(./BMW2.png)"
+      }
+      blackbtn.onclick = function(){
+         bike.style.backgroundImage = "url(./BMW3.png)"
+      }
+   </script>
+
+</body>
+</html>
